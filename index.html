@@ -6,6 +6,7 @@
 <title>Tarik Tadese Kassa</title>
 <meta name="description" content="Software engineer with a master's in Computer Science from NYU. Builds full-stack, cloud and AI-powered applications." />
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&display=swap');
   :root{
     --navy:#05360A; --rule:#05360A; --ink:#1a1a1a; --grey:#5a5a5a;
     --bg:#ffffff; --card:#f4f8f4; --line:#e3e9e3; --accent:#05360A;
@@ -16,7 +17,7 @@
     color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
   .wrap{max-width:820px;margin:0 auto;padding:0 24px}
   header{padding:64px 0 40px;border-bottom:3px solid var(--rule)}
-  h1{font-size:2.4rem;color:var(--navy);letter-spacing:-.5px}
+  h1{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:2.5rem;color:var(--navy);letter-spacing:-.5px}
   .tag{font-size:1.1rem;color:var(--grey);margin-top:12px;max-width:660px}
   .links{margin-top:22px;display:flex;flex-wrap:wrap;gap:10px}
   .links a{display:inline-block;padding:8px 15px;border:1px solid var(--line);border-radius:8px;
@@ -26,7 +27,7 @@
   h2{font-size:.85rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--accent);margin-bottom:18px}
   .about p{font-size:1.05rem;color:#333;margin-bottom:14px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px 24px;margin-bottom:18px}
-  .card h3{font-size:1.15rem;color:var(--navy)}
+  .card h3{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:1.2rem;color:var(--navy)}
   .stack{font-size:.85rem;color:var(--grey);font-style:italic;margin:4px 0 12px}
   .card ul{margin:0 0 12px 18px}
   .card li{margin-bottom:6px;color:#333;font-size:.97rem}
@@ -67,14 +68,15 @@
     <h2>Projects</h2>
 
     <div class="card">
-      <h3>Immigration Document Explainer <span class="soon">In progress</span></h3>
+      <h3>Plainly, an immigration notice explainer</h3>
       <p class="stack">Python, Streamlit, Claude API</p>
       <ul>
         <li>Web app that turns dense U.S. immigration notices into plain-language summaries, deadlines, next steps and a glossary across multiple languages.</li>
         <li>Includes an evaluation harness that measures how accurately the model extracts dates and required actions.</li>
         <li>Scoped, shipped and documented solo in collaboration with Claude.</li>
       </ul>
-      <a href="https://github.com/ttk14/immigration-explainer">View on GitHub &rarr;</a>
+      <a href="https://plainly-ttk.streamlit.app">Live app &rarr;</a>
+      <a href="https://github.com/ttk14/plainly" style="margin-left:14px;">GitHub &rarr;</a>
     </div>
 
     <div class="card">
@@ -126,8 +128,8 @@
     <div class="skillgrid">
       <div class="srow"><b>Education</b><span>MS Computer Science, NYU Tandon (2026). BSc Architecture, EiABC.</span></div>
       <div class="srow"><b>AI work</b><span>AI Trainer and Reviewer at Outlier AI: prompt engineering and model evaluation.</span></div>
-      <div class="srow"><b>Teaching</b><span>Math tutor, pre-school teacher and volunteer teacher. Volunteer at CLINIC, a national immigration legal services nonprofit.</span></div>
-      <div class="srow"><b>Certifications</b><span>AI Fluency and Claude 101 (Anthropic, 2026).</span></div>
+      <div class="srow"><b>Teaching</b><span>Math tutor, volunteer pre-school teacher. Volunteer at CLINIC, a national immigration legal services nonprofit.</span></div>
+      <div class="srow"><b>Certifications</b><span>AI Fluency, Claude 101 (Anthropic), Data Science Bootcamp and Tandon Bridge (NYU), Introduction to Cybersecurity (Cisco).</span></div>
     </div>
   </section>
 
